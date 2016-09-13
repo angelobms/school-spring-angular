@@ -55,10 +55,6 @@ public final class Student {
 		phone = builder.phone;
 		grade = builder.grade;
 	}
-	
-	/*static Builder getBuilder() {
-        return new Builder();
-	}*/
 
 	// Builder Pattern
 	public static class Builder {
@@ -78,8 +74,6 @@ public final class Student {
 			this.registry = registry;
 			this.name = name;
 		}
-
-		//private Builder() {}
 
 		public Builder email(String value) {
 			email = value;
